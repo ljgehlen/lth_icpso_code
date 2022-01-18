@@ -1,0 +1,1 @@
+Probleme in train_lenet: Loss decrease, accuracy immer ~10.6%: Entweder Fehler beim Auswerten oder Programmierfehler beim Trainieren (overfitting unwahrscheinlich)
