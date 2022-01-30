@@ -12,7 +12,7 @@ def evaluate(model, data_loader, device):
     model.eval()
     with torch.no_grad():
         for inputs, targets in data_loader:
-            #inputs, targets = inputs.to(device), targets.to(device)
+            inputs, targets = inputs.to(device), targets.to(device)
             prediction = model(inputs)
             predicted = prediction[0].argmax(0)
             samples += prediction.shape[0]

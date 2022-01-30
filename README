@@ -1,1 +1,6 @@
-Probleme in train_lenet: Loss decrease, accuracy immer ~10.6%: Entweder Fehler beim Auswerten oder Programmierfehler beim Trainieren (overfitting unwahrscheinlich)
+Used Versions:
+Python: 3.8.8
+PyTorch: 1.10.2
+Torchvision: 0.11.3
+
+gpu: NVIDIA GeForce GTX 1080 Ti

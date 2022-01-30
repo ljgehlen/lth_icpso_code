@@ -7,7 +7,7 @@ from downloads import download_mnist_datasets_lenet
 from evaluate_lenet import evaluate
 
 BATCH_SIZE = 128
-EPOCHS = 10
+EPOCHS = 1200
 LEARNING_RATE = 0.001
 N_CLASSES = 10
 
@@ -43,6 +43,7 @@ if __name__ == "__main__":
 		device = "cuda"
 	else:
 		device = "cpu"
+	print(device)
 	lenet = LeNet().to(device)
 
 	loss_fn = nn.CrossEntropyLoss()
