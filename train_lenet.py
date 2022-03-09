@@ -8,7 +8,7 @@ from downloads import download_mnist_datasets_lenet
 from evaluate_lenet import evaluate
 
 BATCH_SIZE = 128
-EPOCHS = 3
+EPOCHS = 10
 LEARNING_RATE = 0.001
 
 def train_one_epoch(model, data_loader, loss_fn, optimiser, device):
