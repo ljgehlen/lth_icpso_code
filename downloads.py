@@ -16,3 +16,6 @@ def download_mnist_datasets_lenet():
 		transform=transforming
 	)
 	return train_data, test_data
+
+#def download_imagenet_datasets():
+	#to-do: ~150 GB

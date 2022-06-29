@@ -5,7 +5,7 @@ from downloads import download_mnist_datasets_lenet
 
 BATCH_SIZE = 128
 
-def evaluate(model, data_loader, device):
+def evaluate_lenet(model, data_loader, device):
     classes = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
     correct = 0
     total = 0
